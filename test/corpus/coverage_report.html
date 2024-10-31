@@ -1,0 +1,1632 @@
+<html lang=en>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coverage Report</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin: 15px;
+            background-color: #eee;
+        }
+        hr {
+            margin: 15px 0px;
+            background-color: transparent;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+        a {
+            color: #2A5DB0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: black;
+        }
+        a:visited {
+            color: #2A5DB0;
+        }
+        footer {
+            line-height: 1.5;
+        }
+        .progress-coverage {
+            width: 50px;
+        }
+        .unselectable {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 8px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 12px;
+        }
+        .collapsible-active, .collapsible:hover {
+            background-color: #555;
+        }
+        .collapsible:after {
+            content: "\002B";
+            color: white;
+            font-weight: bold;
+            float: left;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .collapsible-active:after {
+            content: "\2212";
+        }
+        .collapsible-active + .collapsible-container {
+            max-height: none;
+        }
+        .collapsible-container {
+            margin-bottom: 5px;
+            max-height: 0;
+            overflow: hidden;
+            background-color: #ddd;
+        }
+        .collapsible-container-content {
+            padding: 15px;
+        }
+        .code-coverage-table {
+            border-collapse: collapse;
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 12px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 1.5;
+            tab-size: 4;
+            width: 100%;
+        }
+        .row-line-number {
+            width: 10px;
+            text-align: right;
+            padding-right: 3px;
+            color: rgba(0, 0, 0, 0.50);
+        }
+        .row-reverted-status {
+            font-size: 12px;
+            text-align: center;
+            min-width: 10px;
+            background-color: rgba(0, 0, 0, 0.04);
+            color: rgba(0, 0, 0, 0.70);
+            white-space: nowrap;
+        }
+        .row-source {
+            width: 100%;
+            padding-left: 20px;
+        }
+        .row-line-covered {
+            background-color: rgba(23, 255, 0, 0.12);
+            width: min-content;
+        }
+        .row-line-uncovered {
+            background-color: rgba(255, 0, 0, 0.10);
+            width: min-content;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Coverage Report</h1>
+        <hr />
+        <table>
+            <tr><th>Files: </th><td>2</td></tr>
+            <tr><th>Lines: </th><td>60</td></tr>
+            <tr>
+                <th>Covered: </th>
+                <td>
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    3 / 8 (37.5%)
+                    <progress class="progress-coverage" value="38" max="100" style="accent-color: hsl(38, 100%, 60%)"></progress>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <hr />
+
+    
+    
+        
+        
+        
+        
+
+        
+        
+            <button class="collapsible collapsible-active">
+                
+                <span><progress class="progress-coverage" value="17" max="100" style="accent-color: hsl(17, 100%, 60%)"></progress></span>
+                <span>[17%]</span>
+                <span>src/Counter.sol</span>
+            </button>
+        
+        <div class="collapsible-container">
+            <div class="collapsible-container-content">
+            <hr />
+            
+            <table>
+                <tr>
+                    <th>Lines covered: </th>
+                    <td>1 / 6 (16.7%)</td>
+                </tr>
+            </table>
+            <hr />
+            
+            <table class="code-coverage-table">
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">1</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>// SPDX-License-Identifier: UNLICENSED</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">2</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>pragma solidity ^0.8.13;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">3</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">4</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                                <div title="The source line executed without reverting.">√</div>
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-covered">contract Counter {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">5</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-uncovered">    uint256 public number;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">6</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-uncovered">    uint256 public tempNumber;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">7</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    </pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">8</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    modifier tempStoreNumber(uint256 _number) {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">9</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        assembly {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">10</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-uncovered">            tstore(tempNumber.slot, _number)</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">11</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">12</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        _;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">13</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">14</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">15</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-uncovered">    function increment() public tempStoreNumber(number) returns(uint256, uint256) {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">16</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-uncovered">        revert();</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">17</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        number&#43;&#43;;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">18</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">19</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        uint256 previousNumber;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">20</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">21</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        assembly {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">22</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>            previousNumber := tload(tempNumber.slot)</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">23</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">24</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">25</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>        return (number, previousNumber);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">26</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">27</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>}</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">28</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+            </table>
+            </div>
+        </div>
+    
+        
+        
+        
+        
+
+        
+        
+            <button class="collapsible collapsible-active">
+                
+                <span><progress class="progress-coverage" value="100" max="100" style="accent-color: hsl(100, 100%, 60%)"></progress></span>
+                <span>[100%]</span>
+                <span>test/Counter.t.sol</span>
+            </button>
+        
+        <div class="collapsible-container">
+            <div class="collapsible-container-content">
+            <hr />
+            
+            <table>
+                <tr>
+                    <th>Lines covered: </th>
+                    <td>2 / 2 (100.0%)</td>
+                </tr>
+            </table>
+            <hr />
+            
+            <table class="code-coverage-table">
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">1</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>// SPDX-License-Identifier: UNLICENSED</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">2</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>pragma solidity ^0.8.13;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">3</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">4</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>import {Counter} from &#34;../src/Counter.sol&#34;;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">5</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">6</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>contract CounterFuzz {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">7</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    Counter internal counter;</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">8</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">9</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    constructor() {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">10</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                                <div title="The source line executed without reverting.">√</div>
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-covered">        counter = new Counter();</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">11</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">12</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">13</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    // function test_Increment() public {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">14</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //     uint256 previousCounter = counter.number();</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">15</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">16</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //     try counter.increment() returns (uint256 newNumber, uint256 prevNumber) {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">17</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //         assert(newNumber == previousCounter &#43; 1);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">18</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //         assert(prevNumber == previousCounter);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">19</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //     } catch {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">20</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //         assert(false);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">21</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //     }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">22</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    // }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">23</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">24</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    function test_byteLen(bytes memory _array) public {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">25</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                                <div title="The source line executed without reverting.">√</div>
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                                <div title="The source line executed, but was reverted.">⟳</div>
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre class="row-line-covered">        assert(_array.length &lt; 64);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">26</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">27</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">28</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    // function test_tStore() public {</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">29</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    //     assert(counter.tempNumber() == 0);</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">30</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>    // }</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">31</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre>}</pre>
+                            
+                        </td>
+                    </tr>
+                
+                    
+                    <tr>
+                        
+                        <td class="row-line-number unselectable">32</td>
+
+                        
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+                        <td class="row-reverted-status unselectable">
+                            
+                        </td>
+
+                        
+                        
+                        
+                        <td class="row-source">
+                            
+                                    <pre></pre>
+                            
+                        </td>
+                    </tr>
+                
+            </table>
+            </div>
+        </div>
+    
+
+
+<script>
+    
+    const collapsibleHeaders = document.getElementsByClassName("collapsible");
+    let i;
+    for (i = 0; i < collapsibleHeaders.length; i++) {
+        collapsibleHeaders[i].addEventListener("click", function() {
+            this.classList.toggle("collapsible-active");
+
+        });
+    }
+
+    
+    if (collapsibleHeaders.length === 1 && !collapsibleHeaders.className.contains("collapsible-active")) {
+        collapsibleHeaders[0].click();
+    }
+</script>
+
+<hr />
+<footer>
+    <center>
+        Report generated by medusa
+        <br />
+        2024-08-28 14:20:42.055312 &#43;0000 UTC
+        <br />
+        <a href="https://github.com/crytic/medusa">github.com/crytic/medusa</a>
+    </center>
+</footer>
+</body>
+</html>
